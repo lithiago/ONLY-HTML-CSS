@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* NavBar */
+.navbar-container{
+    width: 100%;
+    height: 100px;
+    background-color: #292727;
+    padding: 0 2rem;
+}
+nav{
+    position: relative;
+}
+.logo{
+    width: 200px;
+    margin-top: -10px;
+    margin-left: -4px;
+}
+.navbar-items{
+    position: absolute;
+    right: 0;
+    height: 90px;
+    line-height: 90px;
+    margin: 0;
+    display: inline-block;
+}
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+.navbar-items a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-items a:hover{
+    font-weight: bold;
+}
+.main-banner{
+    background-image: url(../images/spiderman-banner.jpg);
+    background-size: auto;
+    background-position: center;
+    padding: 10rem 0;
+    border: 1px solid #FDE900;
+    border-top: none;
+}
+.main-banner h1, .main-banner p{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+.main-banner h1{
+    font-size: 56px;
+}
+.main-banner p{
+    font-size: 28px;
+}
+.services-container{
+    padding: 5rem 0;
+}
+.services-container ul{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+.services-container li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.fa-book-open, .fa-comments, .fa-clapperboard, .fa-video{
+    color: #FDE900;
+    text-shadow: 1px -1px 0px #DB1315, 
+    -2px 1px 0px #DB1315,                    
+     0px -1px 0px #DB1315,                  
+     2px 0px 0px #DB1315;
+}
+.principals-container{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+.principals-container h1{
+    font-size: 36px;
+}
+.size-img{
+    width: 400px;
+    height: 600px;
+}
+.midia-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+.midia{
+    flex: 1;
+    max-width: 400px;
+    margin: 0px 70px;
+}
+.midia ul{
+    padding: 0;
+}
+.midia li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    
+}
+.midia .title{
+    height: 100px;
+    color: #ccc;
+    line-height: 100px;
+    margin: 10px auto 0px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 400px;
+    border: 2px solid #FDE900;
+    background-color: #FDE900;
+    text-transform: uppercase;
+}
+.midia .btn-more{
+    position: relative;
+    bottom: -32rem; 
+    text-align: center;
+    margin: 10px auto 0px;
+    padding: 0px auto 0px;
+    background-color: #FDE900;
+    width: 400px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ccc;
+    cursor: pointer;
+}
+.midia-container{
+    border: 1px solid #ccc;
+    position: relative;
+    height: 800px;
+    padding-top: 30px;
+}
+.fa-spider{
+    padding-top: 15rem;
+    font-size: 60px;
+
+}
+@media (max-width: 1100px) {
+ 
+    .principals-container{
+        width: 50%;
+        margin: 0px auto 10px;
+        border: 1px solid #ccc;
+        padding: 10px 10px;
+        height: 2800px;
+    }
+    .midia{
+        margin: 2rem auto 20rem;
+    }
+    .midia-container{
+        display: inline-block;
+        border: none;
+    }
+}
+@media (max-width: 900px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    .navbar-container{
+        width: 100%;
+    }
+    .main-banner{
+        width: 100%;
+    }
+    .services-container ul{
+        display: block;
+        width: 70%;
+    }
+}
+@media (max-width: 576px) {
+    .midia{
+        margin: 0 auto 20rem;
+    }
+    .services-container{
+        width: 576px;
+    }
+    .services-container ul{
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .main-banner{
+        background-image: url(../images/spiderman-banner.jpg);
+        background-size: contain;
+        background-position: center;
+    }
+    .navbar-items li{
+        margin-left: 15px;
+    }
+    .logo{
+        width: 100px;
+        margin: 20px 5px;
+
+    }
+    .principals-container{
+        width: 80%;
+    }
+}
+

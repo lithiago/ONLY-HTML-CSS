@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 2000px;
+    
+}
+body{
+    background-color: #f0ebf8;
+    padding-bottom: 1000px;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+    color: #333;
+}
+p, label{
+    color: #444;
+    font-weight: bold;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"],
+input[type="number"]{
+    width: 200px;
+}
+.register-title{
+    border-top: 0.5px dashed #9c9494;
+    border-bottom: 0.5px dashed #9c9494;
+}
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #F27D52;
+}
+.header h3{
+    color: white;
+    margin-top: 0;
+}
+.form-container{
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+.form-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+.form-header p{
+    color: #F27D52;
+    border-bottom: 2px solid #F27D52;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+.form-body{
+    padding: 30px;
+}
+.form-title{
+    margin-bottom: 15px;
+}
+.form-body p{
+    margin-bottom: 20px;
+}
+.box-input{
+    margin-bottom: 35px;
+}
+.block{
+    display: block;
+}
+.optional-box{
+    display: inline-block;
+    margin: 0px 30px 30px 0px;
+}
+.list-franchises{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.optional-box p{
+    display: block;
+}
+.box-input p{
+    margin-bottom: 15px;
+}
+#boots-size{
+    margin-bottom: 4px;
+}
+
+a:focus,a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+a, a:visited, a:active{
+    color: #000;
+    text-decoration: none;
+}
+img:focus, img:hover{
+    border: 1px solid #232222;
+}
+.list-franchises label:focus, .list-franchises label:hover{
+    font-weight: 900;
+}
+.box-input input:focus, .box-input input:hover, .box-input select:focus, .box-input select:hover{
+    height: 25px;
+    background: #f27d526d;
+}
+.optional-products{
+    display: inline-block;
+    margin: 0px 30px 30px 0px;
+}
+.choice-products h2{
+    padding-bottom: 10px;
+}
+.choice-products{
+    padding-top: 10px;
+}
